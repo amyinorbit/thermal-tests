@@ -36,9 +36,10 @@ z_end, r_end = compute_thermal(t_ref, tp, r)
 plt.figure()
 plt.title('Impact of thermal radius on height (%.0fC increase)' % tp)
 plt.plot(r, z_end, label='z_end')
-plt.plot(r, r_end, label=t'r_end')
+plt.plot(r, r_end, label='r_end')
 plt.xlabel('Thermal Ground Radius')
 plt.legend()
+plt.show()
 
 
 r = 20
