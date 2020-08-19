@@ -47,7 +47,7 @@ tp = np.arange(0, 15)
 z_end, r_end = compute_thermal(t_ref, tp, r)
 
 plt.figure()
-plt.title('Impact of thermal radius on height R=%.0fm' % r)
+plt.title('Impact of thermal temperature on height (R=%.0fm)' % r)
 plt.plot(tp, z_end, label='z_end')
 plt.plot(tp, r_end, label='r_end')
 plt.xlabel('Temperature Anomaly')
